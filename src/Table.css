@@ -1,0 +1,24 @@
+.Table {
+  text-align: center;
+  background-color: blue;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

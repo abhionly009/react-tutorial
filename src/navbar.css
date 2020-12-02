@@ -1,0 +1,22 @@
+nav {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+a {
+  padding: 12px;
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: gray;
+  color: white;
+}
+
+a.active {
+  background-color: teal;
+  color: white;
+}
